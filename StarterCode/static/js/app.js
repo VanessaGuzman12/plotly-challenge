@@ -8,12 +8,7 @@ function buildMetadata(sample) {
       panel.html("");
       Object.entries(result).forEach(([key, value]) => {
         panel.append("h6").text(`${key}: ${value}`);
-      });
-  
-
-  
-  
-  
+      }); 
     });
   }
   
@@ -99,8 +94,5 @@ function buildMetadata(sample) {
   buildCharts(newSample);
   buildMetadata(newSample);
   }
-  
-  
-  
-  
+   
   initial();
